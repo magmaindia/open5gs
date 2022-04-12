@@ -18,7 +18,7 @@ And then restart amf service.
 ```bash
 sudo systemctl restart open5gs-amfd
 ```
-Upadte the Upf config file loacted at /etc/open5gs/upf.yaml by replacing given ip of ngap address to local eth0 ip.
+Upadte the Upf config file loacted at /etc/open5gs/upf.yaml by replacing given ip of gtpu address to local eth0 ip.
 And then restart upf service.
 ```bash
 sudo systemctl restart open5gs-upfd
